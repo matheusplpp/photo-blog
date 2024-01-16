@@ -37,3 +37,22 @@ main {
     overflow-y: scroll;
     background-color: var(--color-base-gray-100);
 }
+
+header, nav, nav ul {
+    display: flex;
+    align-items: center;
+    gap: 7.2rem;
+}
+
+header form {
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+ul li.active {
+    color: var(--color-base-gray-900);
+}
