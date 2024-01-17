@@ -42,6 +42,7 @@ header, nav, nav ul {
     display: flex;
     align-items: center;
     gap: 7.2rem;
+    font-weight: 700;
 }
 
 header form {
@@ -56,4 +57,17 @@ nav ul {
 
 ul li.active {
     color: var(--color-base-gray-900);
+}
+
+.avatar {
+    width: 4.2rem;
+    height: 4.2rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+footer p {
+    text-align: center;
+    padding: 1.6rem;
+    font-weight: 600;
 }
